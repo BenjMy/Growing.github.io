@@ -951,6 +951,12 @@ h6 {
   overflow: hidden;
 }
 
+/* resize images */
+#team .member img{
+    width: 30%;
+    height: auto;
+}
+
 #team .member .member-info {
   display: -webkit-box;
   display: -webkit-flex;
