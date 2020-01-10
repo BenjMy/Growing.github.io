@@ -905,7 +905,7 @@ h6 {
 --------------------------------------------------------------*/
 
 @media (min-width: 991px) {
-  #publications .cta-btn-container {
+  #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
