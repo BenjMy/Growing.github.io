@@ -577,6 +577,49 @@ h6 {
 }
 
 
+/* Call To Action Section
+--------------------------------*/
+
+#publications {
+  background: #2d2b46;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+#publications .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#publications .cta-text {
+  color: #fff;
+}
+
+#publications .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+#publications .cta-btn:hover {
+  background: #1bb1dc;
+  border: 3px solid #1bb1dc;
+}
+
+.publications h2 {
+  color: pink;
+  font-size: 14px;
+}
+
 /* Team Section
 --------------------------------*/
 
@@ -905,7 +948,7 @@ h6 {
 --------------------------------------------------------------*/
 
 @media (min-width: 991px) {
-  #call-to-action .cta-btn-container {
+  #publications .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
