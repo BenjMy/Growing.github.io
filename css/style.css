@@ -593,7 +593,7 @@ h6 {
 
 /* resize images */
 #team .member img{
-    width: 30%;
+    width: 100%;
     height: auto;
 }
 
