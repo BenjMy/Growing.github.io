@@ -541,8 +541,8 @@ h6 {
 }
 
 #about .about-img img {
-  width: 100%;
-  border: 8px solid #fff;
+  width: 80%;
+  border: 0px solid #fff;
   transition: .5s;
 }
 
@@ -560,7 +560,7 @@ h6 {
 /*  height: 92%;*/
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: white;
   transition: .5s;
 }
 
@@ -572,12 +572,11 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: white;
   transition: .5s;
 }
 
-
-/* Call To Action Section
+/* Publications sections
 --------------------------------*/
 
 #publications {
@@ -615,10 +614,97 @@ h6 {
   border: 3px solid #1bb1dc;
 }
 
-.publications h2 {
-  color: pink;
-  font-size: 14px;
+
+/* Field sites section 
+--------------------------------*/
+
+/* About Us Section
+--------------------------------*/
+
+#studyAreas {
+  padding: 80px 0;
 }
+
+#studyAreas .studyAreas-content {
+  padding-top: 40px;
+}
+
+#studyAreas .studyAreas-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#studyAreas .studyAreas-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#studyAreas .studyAreas-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#studyAreas .studyAreas-content ul li {
+  padding-bottom: 10px;
+}
+
+#studyAreas .studyAreas-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#studyAreas .studyAreas-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#studyAreas .studyAreas-img img {
+  width: 80%;
+  border: 0px solid #fff;
+  transition: .5s;
+}
+
+#studyAreas .studyAreas-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#studyAreas .studyAreas-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 80%;
+/*  height: 92%;*/
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+#studyAreas .studyAreas-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
 
 /* Team Section
 --------------------------------*/
