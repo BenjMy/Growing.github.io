@@ -703,6 +703,87 @@ h6 {
  }
 
 
+/* work packages section 
+--------------------------------*/
+
+
+#wp1 {
+  padding: 80px 0;
+}
+
+#wp1 .wp1-content {
+  padding-top: 40px;
+}
+
+#wp1 .wp1-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#wp1 .wp1-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#wp1 .wp1-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#wp1 .wp1-content ul li {
+  padding-bottom: 10px;
+}
+
+#wp1 .wp1-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#wp1 .wp1-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#wp1 .wp1-img img {
+  width: 80%;
+  border: 0px solid #fff;
+  transition: .5s;
+}
+
+#wp1 .wp1-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#wp1 .wp1-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 80%;
+/*  height: 92%;*/
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+#wp1 .wp1-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
 /* Team Section
 --------------------------------*/
 
