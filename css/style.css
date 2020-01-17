@@ -576,6 +576,11 @@ h6 {
   transition: .5s;
 }
 
+#about .msca-logo {
+    width: 50%;
+    height: auto;
+}
+
 /* Publications sections
 --------------------------------*/
 
