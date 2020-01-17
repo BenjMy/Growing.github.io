@@ -12,7 +12,10 @@ var MSCAfields = {
             "type": "Feature",
             "properties": {
                 "Description": "Field site under GROWING project supervision",
-                "LocationName": "Padua (UNIPD)"
+                "Location": "Padua (UNIPD)",    
+                "MeasType": "ERT",
+                "Organ": "root",
+                "Species": "grapewine"
             },
             "id": 1
         },
@@ -27,8 +30,8 @@ var MSCAfields = {
             "type": "Feature",
             "properties": {
                 "Description": "Field site under GROWING project supervision",
-                "LocationName": "Berkeley (LBNL)"
-                // "URL": "<a href='https://www.johnhenrygroup.co.uk/' target='blank'>JHG</a>"
+                "Location": "Berkeley (LBNL)",
+                "URL": "<a href='https://eesa.lbl.gov/using-electrical-current-image-root-systems-accelerate-crop-growth/' target='blank'>Find out more</a>"
             },
             "id": 2,
         }
@@ -48,7 +51,7 @@ var WASAfields = {
             "type": "Feature",
             "properties": {
                 "Description": "Field site created during the WASA project",
-                "LocationName": "Tunis (CERTE)",
+                "Location": "Tunis (CERTE)",
             },
             "id": 1
         },
@@ -63,48 +66,11 @@ var WASAfields = {
             "type": "Feature",
             "properties": {
                 "Description": "Field site created during the WASA project",
-                "LocationName": "Catania (UNICT)",
+                "Location": "Catania (UNICT)",
                 "URL": "<a href='https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area/' target='blank'>WASA project website</a>"
             },
             "id": 2,
         }
     ]
 };
-
-
-// var WASAfield = {
-//     "type": "FeatureCollection",
-//     "features": [
-//         {
-//             "geometry": {
-//                 "type": "Point",
-//                 "coordinates": [
-//                     -104.9998241,
-//                     39.7471494
-//                 ]
-//             },
-//             "type": "Feature",
-//             "properties": {
-//                 "Description": "Field site created during the WASA project"
-//                 "URL": "<a href='https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area/' target='blank'>WASA project website</a>"
-//             },
-//             "id": 51
-//         },
-//         {
-//             "geometry": {
-//                 "type": "Point",
-//                 "coordinates": [
-//                     -104.9983545,
-//                     39.7502833
-//                 ]
-//             },
-//             "type": "Feature",
-//             "properties": {
-//                 "Description": "Field site created during the WASA project",
-//                 "URL": "<a href='https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area/' target='blank'>WASA project website</a>"
-//             },
-//             "id": 52,
-//         }
-//     ]
-// };
 

@@ -15,31 +15,16 @@
     popupAnchor: [0, -28]
   });
 
-  function onEachFeature(feature, layer) {
-    var popupContent = "<p>I started out as a GeoJSON " +
-        feature.geometry.type + ", but now I'm a Leaflet vector!</p>";
+function onEachFeature(feature, layer) {
 
-    if (feature.properties && feature.properties.popupContent) {
-      popupContent += feature.properties.popupContent;
-    }
-
-    if (typeof feature.properties.URL !== 'undefined') {
-    layer.bindPopup("</h1></u></font><h2>Location: " +
-        feature.properties.LocationName +
-        "</h2><p>" +
-        feature.properties.Description +
-        "</p>" + feature.properties.URL
-        );
-    }
-    else {
-    layer.bindPopup("</h1></u></font><h2>Location: " +
-        feature.properties.LocationName +
-        "</h2><p>" +
-        feature.properties.Description
-        );
-    }
-        
+  var popupContent = '<table>';
+  for (var p in feature.properties) {
+      popupContent += '<tr><td><b>' + p + '</b></td><td>'+ feature.properties[p] + '</td></tr>';
   }
+  popupContent += '</table>';
+  layer.bindPopup(popupContent);
+}
+
 
   L.geoJSON([MSCAfields], {
 
