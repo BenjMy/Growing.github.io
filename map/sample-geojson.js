@@ -1,3 +1,27 @@
+var Rhizo = {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.88586, 
+                    45.50797
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "Description": "Laboratory exp. under GROWING project supervision",
+                "Location": "Padua (UNIPD)",    
+                "MeasType": "Rhizotron",
+                "Organ": "root",
+                "Species": "grapewine"
+            },
+            "id": 1
+        },
+    ]
+};
+
 var MSCAfields = {
     "type": "FeatureCollection",
     "features": [
@@ -52,6 +76,9 @@ var WASAfields = {
             "properties": {
                 "Description": "Field site created during the WASA project",
                 "Location": "Tunis (CERTE)",
+                "MeasType": "3d ERT",
+                "Species": "Citrus",
+                "Organ": "active roots"
             },
             "id": 1
         },
@@ -67,6 +94,9 @@ var WASAfields = {
             "properties": {
                 "Description": "Field site created during the WASA project",
                 "Location": "Catania (UNICT)",
+                "MeasType": "3d ERT",
+                "Species": "Citrus",
+                "Organ": "active roots",
                 "URL": "<a href='https://www.era-learn.eu/network-information/networks/eranetmed/eranetmed-joint-call-on-renewable-energies-water/water-saving-in-agriculture-technological-developments-for-the-sustainable-management-of-limited-water-resources-in-the-mediterranean-area/' target='blank'>WASA project website</a>"
             },
             "id": 2,

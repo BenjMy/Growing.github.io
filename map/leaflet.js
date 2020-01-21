@@ -37,7 +37,7 @@ function onEachFeature(feature, layer) {
     pointToLayer: function (feature, latlng) {
       return L.circleMarker(latlng, {
         radius: 8,
-        fillColor: "#ff7800",
+        fillColor: "#66ff99",
         color: "#000",
         weight: 1,
         opacity: 1,
@@ -46,6 +46,26 @@ function onEachFeature(feature, layer) {
     }
   }).addTo(map);
 
+
+  L.geoJSON([Rhizo], {
+
+    style: function (feature) {
+      return feature.properties && feature.properties.style;
+    },
+
+    onEachFeature: onEachFeature,
+
+    pointToLayer: function (feature, latlng) {
+      return L.circleMarker(latlng, {
+        radius: 8,
+        fillColor: "#ff7800",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+      });
+    }
+  }).addTo(map);
 
   L.geoJSON([MSCAfields], {
 
