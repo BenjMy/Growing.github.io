@@ -1,0 +1,7 @@
+{"type":"FeatureCollection",
+	"features":[
+	{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.77104996269101,42.6613900257533]},
+		"properties":
+		{"OGC_FID":0,"cdtabike_i":1,"id":"p1","town":"Albany","name":"405 Washington Ave Albany, NY","latitude":42.6614,"longitude":-73.7711,"address":"405 Washington Ave"}},
+	{"type":"Feature","geometry":{"type":"Point","coordinates":[-73.82559997891175,42.68520003074487]},
+	"properties":{"OGC_FID":1,"cdtabike_i":2,"id":"p2","town":"Albany","name":"Education Ln, UAlbany Albany, NY","latitude":42.6852,"longitude":-73.8256,"address":"Education Ln, UAlbany"}}]}
