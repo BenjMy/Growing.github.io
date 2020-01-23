@@ -1,0 +1,1 @@
+- add catalog as new page html into index.html keeping the same header to come back to main page if necessary
