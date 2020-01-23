@@ -707,6 +707,7 @@ h6 {
   width: 100%;  /* The width is the width of the web page */
  }
 
+
 /* work packages section 
 --------------------------------*/
 
@@ -989,47 +990,6 @@ h6 {
 
 #projectPartners .owl-dot.active {
   background-color: #1bb1dc;
-}
-
-
-/*--------------------------------------------------------------
-# Leaflet map
---------------------------------------------------------------*/
-
-/*#LeafletCatalog {
-  padding: 4px 1cm;
-}
-
-#LeafletCatalog .LeafletCatalog-content {
-  padding-top: 4px;
-}*/
-
-#LeafletCatalog .LeafletCatalog-content h2 {
-  color: #413e66;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-#LeafletCatalog .LeafletCatalog-content h3 {
-  color: #696592;
-  font-weight: 400;
-  font-size: 22px;
-  font-style: italic;
-}
-
-#LeafletCatalog .LeafletCatalog-content ul {
-  list-style: none;
-  padding: 0;
-}
-
-#LeafletCatalog .LeafletCatalog-content ul li {
-  padding-bottom: 10px;
-}
-
-#LeafletCatalog .LeafletCatalog-content ul li i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #1bb1dc;
 }
 
 

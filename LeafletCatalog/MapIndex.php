@@ -1,82 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
-
-<head>
-   
-   <title>Leaflet with Mysql bdd query</title>
-
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-
-   <style>
-      html, body {
-         height: 100%;
-         margin: 0;
-      }
-      #map {
-         width: 600px;
-         height: 400px;
-      }
-   </style>
 
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- academicons CSS File -->
-<!--   <link href="css/academicons.min.css" rel="stylesheet">
- -->  
-  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
-  <!--==========================
-  Include html files
-  ============================-->
-  <!-- Main bibliography  -->
-  <link href="biblio.html" rel="import">
-<!--   <link href="Leaflet_Catalog_page/MapIndex.php" rel="import">
- -->
-<!--   <link href="map_test/indexmap.html" rel="import">
- -->
-  <!--==========================
-  Include a map
-  ============================-->
-  <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
-
-</head>
-
-<body>
-
-
-<?php include("../header.php"); ?>
-
-
-<section id="LeafletCatalog" class="section-bg">
-
- 
+      <div class="container">
 
 <!-- <script type="text/javascript">
     function selectAll() 
@@ -99,10 +23,8 @@
 </form> -->
 
 <!-- Formulaires
- -->     
-<div>
-
-          <form action="LeafletCatalog/MapIndex.php" method="post"> <!-- // 4 - envoyer du POST -->
+ -->         
+          <form action="MapIndex.php" method="post"> <!-- // 4 - envoyer du POST -->
             <select name="methodology">
                 <option value="ERT">ERT</option>
                 <option value="IP">IP</option>
@@ -119,12 +41,11 @@
             <input type="submit" value="Valider" />
         </form>
 
-</div>
+    </div> 
 
 
 <div id='map'></div>
 
-</section><!-- #LeafletCatalog -->
 
 <!-- MySQL Points to GeoJSON ->->- Also in the file MySQLPts2GeoJson.php
  -->
@@ -368,5 +289,3 @@ $conn = NULL;
 
 </script>
 
-</body>
-</html>
