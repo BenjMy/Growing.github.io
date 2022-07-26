@@ -790,6 +790,163 @@ h6 {
 }
 
 
+#wp2 {
+  padding: 80px 0;
+}
+
+#wp2 .wp2-content {
+  padding-top: 40px;
+}
+
+#wp2 .wp2-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#wp2 .wp2-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#wp2 .wp2-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#wp2 .wp2-content ul li {
+  padding-bottom: 10px;
+}
+
+#wp2 .wp2-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#wp2 .wp2-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#wp2 .wp2-img img {
+  width: 80%;
+  border: 0px solid #fff;
+  transition: .5s;
+}
+
+#wp2 .wp2-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#wp2 .wp2-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 80%;
+/*  height: 92%;*/
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+#wp2 .wp2-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+
+
+#wp3 {
+  padding: 80px 0;
+}
+
+#wp3 .wp3-content {
+  padding-top: 40px;
+}
+
+#wp3 .wp3-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#wp3 .wp3-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#wp3 .wp3-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#wp3 .wp3-content ul li {
+  padding-bottom: 10px;
+}
+
+#wp3 .wp3-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#wp3 .wp3-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#wp3 .wp3-img img {
+  width: 80%;
+  border: 0px solid #fff;
+  transition: .5s;
+}
+
+#wp3 .wp3-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#wp3 .wp3-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 80%;
+/*  height: 92%;*/
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+#wp3 .wp3-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: white;
+  transition: .5s;
+}
+
+
 #wp4 {
   padding: 80px 0;
 }
